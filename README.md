@@ -18,6 +18,8 @@ Validation was 20% of the Training folder; the Testing folder was kept untouched
 | CNN + augmentation + LR schedule | 89.6%         | 0.74          | 92                        |
 | EfficientNetB0 (fine-tuned)      | **92.1%**     | 0.79          | **23**                    |
 
+![App screenshot](screenshots/app.png)
+
 ## Findings
 
 - Validation accuracy (~96%) was higher than test accuracy (~92%). The validation split comes from the same folder as training and likely shares near-duplicate slices, so the test folder is the honest number.
